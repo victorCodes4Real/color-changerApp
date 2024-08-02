@@ -11,7 +11,8 @@
     "react-dom": "^18.3.1",
     "react-script": "^2.0.5",
     "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://victorCodes4Real.github.io/color-changerApp/"
   },
   "scripts": {
     "start": "react-scripts start",
