@@ -9,12 +9,14 @@
     "colornames": "^1.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+   "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,6 +41,7 @@
   "devDependencies": {
     "ajv": "^7.2.4",
     "ajv-keywords": "^5.1.0",
+    "gh-pages": "^6.1.1",
     "webpack-cli": "^5.1.4"
   }
 }
