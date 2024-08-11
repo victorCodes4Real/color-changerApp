@@ -11,13 +11,10 @@
     "react-dom": "^18.3.1",
     "react-script": "^2.0.5",
     "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://victorCodes4Real.github.io/color-changerApp/"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -26,7 +23,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+     "rules": {
+    "react/react-in-jsx-scope": "off"
+     }
   },
   "browserslist": {
     "production": [

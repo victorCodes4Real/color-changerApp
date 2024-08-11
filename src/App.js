@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Square from "./Square";
 import Input from "./Input";
 import { useState } from "react";
